@@ -1,0 +1,19 @@
+package Assignment1;
+
+public class FibonacciSeries {
+	
+	public static void main(String[] args) {
+
+        int x = 10, y = 0, z = 1;
+        System.out.print("First " + x + " terms: ");
+
+        for (int i = 1; i <= x; ++i)
+        {
+            System.out.print(y + " , ");
+
+            int sum = y + z;
+            y = z;
+            z = sum;
+        }
+    }
+}
