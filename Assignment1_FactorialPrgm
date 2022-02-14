@@ -1,0 +1,16 @@
+package Assignment1;
+
+public class Factorial {
+
+	public static void main(String[] args) {
+		int numb = 5;
+		long first_number = 1;
+		int i = 1;
+		while (i <= numb) {
+			first_number = first_number * i;
+			i++;
+		}
+		System.out.println("Factorial of " + numb + " is: " + first_number);
+	}
+
+}
